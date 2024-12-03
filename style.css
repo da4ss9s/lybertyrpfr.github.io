@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    background-image: url("Images/Image\ de\ fond.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.curseur1 { cursor: url("curseur1.png"), auto; }
+.curseur2 { cursor: url("curseur2.png"), auto; }
+
+/* Barre de navigation */
+.bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: orange;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 0px;
+    margin: 0px;
+}
+
+.bar-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.bar-links {
+    display: flex;
+    gap: 100px;
+}
+
+.bar-item {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.bar-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Bouton spécial */
+.special-button {
+    background: linear-gradient(135deg, #007aff, #0051ff);
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.special-button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(135deg, #0051ff, #0033ff);
+}
+
+.Titre {
+    text-align: center;
+}
+
+.Tilte {
+    font-size: 2.5rem; /* Taille du texte */
+    font-weight: bold;
+    color: orange; /* Couleur du texte */
+}
+
+.text { 
+    color: #ffffff;
+}
+
+.Nouveauté {
+    position: relative;
+    width: 80%;
+    max-width: 300px;
+    margin: 20px auto; /* Centrer et espacer la section */
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.Actualité {
+    text-align: center;
+    color: orange;
+    margin-bottom: 20px; /* Espacement avec .Nouveauté */
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="formulaire.css">
+    <script defer src="formulaire.js"></script>
+    <link rel="icon" type="" href="/Images/Logo Lyberty.png">
+</head>
+<body class="curseur1">
+    <!-- Barre de navigation -->
+    <nav class="bar">
+        <div class="bar-logo">Lyberty RP - Site Officiel</div>
+        <div class="bar-logo">Lyberty RP sites Officielle</div>
+        <div class="bar-links">
+            <a href="/Index.html" class="bar-item">Accueil</a>
+            <a href="/boutique" class="bar-item">Boutique</a>
+            <a href="/Pages/A propos/apropos.html" class="bar-item"></a>
+            <a href="/apropos.html" class="bar-item">A propos</a>
+            <a href="/Pages/Invite discord/Invite.html" class="bar-item special-button">Nous rejoindres</a>
+        </div>
+    </nav>
+
+    <!-- Conteneur principal -->
+    <div class="formstaff">
+        <form id="formulaire" class="questiontaff1">
+            <h1>Partie HRP</h1>
+            <div class="form-group">
+                <label for="forpseudodiscord">Pseudo Discord</label>
+                <input type="text" id="forpseudodiscord" name="forpseudodiscord" required>
+
+                <label for="forpseudoroblox">Pseudo Roblox</label>
+                <input type="text" id="forpseudoroblox" name="forpseudoroblox" required>
+
+                <label for="foriddiscord">ID Discord</label>
+                <input type="number" id="foriddiscord" name="foriddiscord" required>
+
+                <label for="forprénomhrp">Prénom</label>
+                <input type="text" id="forprénomhrp" name="forprénomhrp" >
+
+                <label for="foragehrp">Âge</label>
+                <input type="number" id="foragehrp" name="foragehrp" >
+            </div>
+
+            <h1>Partie Motivations</h1>
+            <div class="form-group">
+                <label for="forpourquoivousmo">Pourquoi vous ? (5 lignes)</label>
+                <textarea id="forpourquoivousmo" name="forpourquoivousmo" required></textarea>
+
+                <label for="formotivationmo">Motivation (8 lignes)</label>
+                <textarea id="formotivationmo" name="formotivationmo" required></textarea>
+            </div>
+
+            <h1>Partie Règlements</h1>
+            <div class="form-group">
+                <label for="forzonesaferg">Quelles sont les zones safes ?</label>
+                <input type="text" id="forzonesaferg" name="forzonesaferg" required>
+
+                <label for="forwinrg">Que veut dire WIN RP ?</label>
+                <input type="text" id="forwinrg" name="forwinrg" required>
+
+                <label for="fortmétagamingrg">Que veut dire le métagaming ?</label>
+                <input type="text" id="fortmétagamingrg" name="fortmétagamingrg" required>
+            </div>
+
+            <h1>Partie final</h1>
+            <div class="form-group">
+                <label for="foroui_non">Seriez-vous disponibles pour un entretien vocal ?</label>
+                <select name="foroui_non" id="foroui_non" required>
+                    <option value="oui">Oui</option>
+                    <option value="non">Non</option>
+                </select>
+            </div>
+            
+
+            <button type="submit" class="btn-submit">Envoyer le formulaire</button>
+        </form>
+    </div>
+</body>
+</html>
